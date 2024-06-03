@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <script>
+      //q16
+      const userInput1 = prompt("Please enter two numbers: userInput1,");
+      const userInput2 = prompt("Please enter two numbers: userInput2,");
+      if ((userInput1 > 10) & (userInput2 > 10)) {
+        console.log("Both numbers are greater than 10");
+      } else {
+        console.log("At least one number is not greater than 10");
+      }
+      //q17
+      var username1 = "daliatw";
+      var password1 = "dalia000$";
+      const username = prompt("Please enter your user name");
+      const password = prompt("Please enter your password");
+      if ((username1 == username) & (password1 == password)) {
+        console.log("Access granted");
+      } else {
+        console.log("Access denied");
+      }
+      //q18
+      const num = prompt("Please enter a number");
+      if ((num >= 10) & (num <= 20)) {
+        console.log("The number is between 10 and 20");
+      } else console.log("The number is not between 10 amd 20");
+      //q19
+      var legalage = 18;
+      const agep = prompt("Please enter your age ");
+      if (agep >= legalage) {
+        console.log("Yes You Can drive");
+      } else console.log("No You can't drive");
+      //q20
+      var number0 = prompt("Please enter a number ");
+      if (number0 > 10 || number0 < 0) {
+        console.log("Invaild number");
+      } else console.log("Valid number");
+      //q21
+      var numbern = prompt("Enter a number ");
+      if (
+        (numbern <= 10) & (numbern >= 5) ||
+        (numbern <= 25) & (numbern >= 10)
+      ) {
+        console.log("Valid number");
+      } else console.log(" not a Valid number");
+      //q22
+      let pass = "secret";
+      let pass1 = "password";
+      const pw = prompt("please enter your password");
+      if (pw == pass || pw == password) {
+        console.log("Access Granted");
+      } else console.log("Access denied");
+
+      //q23
+      var numberd = prompt("Please enter a number");
+      if ((numberd >= 0) & (numberd <= 100)) {
+        if (numberd % 2 == 0)
+          console.log("The number is even and between 0 and 100");
+      } else console.log("The number is not even and/or not between 0 and 100");
+      //q24
+      const neg = prompt("enter your number");
+      const neg1 = prompt("enter your number");
+      if ((neg < 0) & (neg1 < 0)) {
+        console.log("The numbers are negative numbers");
+      } else console.log("The numbers are positive");
+
+      //q25
+      var ageper = prompt("enter your age ");
+      const student = prompt("are you student?");
+      if (ageper < 18 || student == yes) {
+        console.log("You qualify for a discount");
+      } else console.log("You do not qualify for a discount");
+    </script>
+  </body>
+</html>
